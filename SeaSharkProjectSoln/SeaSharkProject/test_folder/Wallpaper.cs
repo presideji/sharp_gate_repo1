@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SeaSharkProject.test_folder
 {
-    class Wallpaper
+    public class Wallpaper
     {
+
+        public void GetMeCookies()
+        {
+            Console.WriteLine("I need a cookie to eat!");
+
+        }
+
     }
 }
