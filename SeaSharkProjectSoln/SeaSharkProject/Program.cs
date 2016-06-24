@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SeaLionProject.fish;
+using SeaSharkProject.access_modifier;
+using SeaSharkProject.basics;
 using SeaSharkProject.calf;
 using SeaSharkProject.facebook;
+using SeaSharkProject.gettersAndSetters;
 
 namespace SeaSharkProject
 {
@@ -13,17 +17,19 @@ namespace SeaSharkProject
 
         public static void Main(string[] args)
         {
-            //Elephant elephant = new Elephant();
-            Elephant elephant = new Elephant("Edwin", "Loveth", "Anney", "Hitler");
-            //now lets go back to elephant in facebook--Elephant
 
-            string name =  elephant.GetFirstStudentName();
-            Console.WriteLine(name);
+            Eagle eagle = new Eagle();
 
-            Elephant pigeon = new Elephant("Avan Rolf", "Jeff Morgan", "Roy Fielding", "David cameron");
-            string name1 = pigeon.GetFirstStudentName();
-            Console.WriteLine(name1);
+           string result =  eagle.eaglename;
+            Console.WriteLine(result);
+
+
 
         }
+
     }
+
+
 }
+
+
