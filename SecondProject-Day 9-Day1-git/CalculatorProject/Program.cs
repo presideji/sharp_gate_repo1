@@ -36,7 +36,7 @@ namespace CalculatorProject
             long d1 = calculator.Divide();
             Console.WriteLine("The answer is " + d1);
             Console.ReadKey();
-
+            
 
 
 
